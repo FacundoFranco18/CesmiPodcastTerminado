@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telón de Apertura - Podcast Studio</title>
+    <link rel="stylesheet" href="estiloTelon.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body class="curtain-body">
+    <div class="overlay-grid"></div>
+    <div class="curtain-container">
+        <div class="led-badge"><i class="fas fa-broadcast-tower"></i> EL SHOW EMPIEZA PRONTO</div>
+
+        <h1 class="neon-title">TRANSMISIÓN EN VIVO</h1>
+
+        <div class="timer-card">
+            <div class="timer-display" id="timer">05:00</div>
+            <div class="timer-status" id="timerStatus">CUENTA REGRESIVA ACTIVA</div>
+        </div>
+
+        <div class="controls-row">
+            <button class="btn-led" id="btnToggleTimer"><i class="fas fa-pause"></i> Pausar</button>
+            <button class="btn-led" id="btnAddMin"><i class="fas fa-plus"></i> +1 Min</button>
+            <button class="btn-led highlight" id="btnGoLive"><i class="fas fa-play"></i> Ir al Estudio</button>
+        </div>
+    </div>
+
+    <script src="funcionesApertura.js"></script>
+</body>
+</html>

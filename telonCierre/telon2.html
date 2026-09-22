@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telón de Cierre - Podcast Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="estiloTelon2.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body class="curtain-body">
+    <div class="overlay-grid"></div>
+    <div class="curtain-container">
+        <h1 class="neon-sign">¡GRACIAS POR ACOMPAÑARNOS!</h1>
+        <p class="neon-subtitle">EL SHOW HA FINALIZADO</p>
+
+        <div class="social-box">
+            <div class="social-item"><i class="fab fa-youtube"></i> /TuCanalPodcast</div>
+            <div class="social-item"><i class="fab fa-instagram"></i> @TuPodcastLive</div>
+            <div class="social-item"><i class="fab fa-twitch"></i> /PodcastStream</div>
+        </div>
+
+        <div class="controls-row">
+            <button class="btn-led" id="btnClap"><i class="fas fa-hands-clapping"></i> Ovación Final</button>
+            <button class="btn-led highlight" id="btnReturn"><i class="fas fa-home"></i> Volver al Estudio</button>
+        </div>
+    </div>
+
+    <script src="funcionesCierre.js"></script>
+</body>
+</html>
